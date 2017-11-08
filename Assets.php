@@ -13,11 +13,6 @@ class Assets extends AssetBundle
         'forceCopy' => true
     ];
 
-   /* public $js = [
-    *    'v1.js'
-    * ]; 
-    */
-
     public function init()
     {
         $this->sourcePath = dirname(__FILE__) . '/assets';
