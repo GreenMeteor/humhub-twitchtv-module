@@ -7,7 +7,7 @@ use humhub\models\Setting;
 \humhub\modules\twitchtv\Assets::register($this);
 ?>
 
-<div class="panel panel-default panel-discordapp" id="panel-twitchtv">
+<div class="panel panel-default panel-twitchtv" id="panel-twitchtv">
     <?= \humhub\widgets\PanelMenu::widget(['id' => 'panel-twitchtv']); ?>
   <div class="panel-heading">
     <?=Yii::t('TwitchtvModule.base', '<strong>Twitch</strong> Chat'); ?>
