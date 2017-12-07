@@ -18,7 +18,7 @@ use humhub\models\Setting;
 <iframe frameborder="0" 
         scrolling="no" 
         id="TwitchtvFrame" 
-        src="<? $twitchtvUrl ?>" 
+        src="<?= $twitchtvUrl; ?>" 
         height="500" 
         width="100%">
 </iframe>
