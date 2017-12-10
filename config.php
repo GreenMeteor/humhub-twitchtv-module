@@ -1,6 +1,5 @@
 <?php
 
-use Yii;
 namespace humhub\modules\twitchtv;
 
 return [
