@@ -1,6 +1,6 @@
 ## [HumHub](https://www.humhub.org/en) TwitchTV Chat Module
 
-Adds a sidebar widget to the Dashboard.
+This module allows for the ability of using your TwitchTV chat widget on your own site.
 
 ## Installing & Setup
 1. Download via git or normal download.
