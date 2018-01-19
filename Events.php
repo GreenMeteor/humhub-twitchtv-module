@@ -16,7 +16,7 @@ class Events extends \yii\base\Object
             'label' => Yii::t('TwitchtvModule.base', 'Twitch Settings'),
             'url' => Url::toRoute('/twitchtv/admin/index'),
             'group' => 'settings',
-            'icon' => '<i class="fa fa-twitch"></i>',
+            'icon' => '<i class="fab fa-twitch"></i>',
             'isActive' => Yii::$app->controller->module && Yii::$app->controller->module->id == 'twitchtv' && Yii::$app->controller->id == 'admin',
             'sortOrder' => 650
         ]);
