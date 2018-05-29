@@ -1,5 +1,7 @@
 ## [HumHub](https://www.humhub.org/en) TwitchTV Chat Module
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenMeteor/humhub-twitchtv-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenMeteor/humhub-twitchtv-module/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenMeteor/humhub-twitchtv-module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenMeteor/humhub-twitchtv-module/build-status/master)
+
 This module allows for the ability of using your TwitchTV chat widget on your own site.
 
 ## Installing & Setup
