@@ -3,9 +3,9 @@
     "name": "TwitchTV Chat",
     "description": "Adds Twitch chat channel(s) to HumHub`s sidebar.",
     "keywords": ["twitchtv"],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "humhub": {
-    "minVersion": "1.0"
+    "minVersion": "1.2"
     },
     "screenshots": ["assets/Screenshot_1.png", "assets/Screenshot_2.png"]
 }
