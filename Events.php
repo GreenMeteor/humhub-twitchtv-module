@@ -27,8 +27,8 @@ public static function addTwitchtvFrame($event)
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->view->registerAssetBundle(Assets::className());
-        $event->sender->addWidget(TwitchtvFrame::className(), [], [
+        $event->sender->view->registerAssetBundle(Assets::class);
+        $event->sender->addWidget(TwitchtvFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'twitchtv')
         ]);
     }
