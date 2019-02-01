@@ -20,7 +20,7 @@ class TwitchtvFrame extends Widget
      */
    public function run()
     {
-        $url = Yii::$app->getModule('twitchtv')->getServerUrl() . '/';
+        $url = Yii::$app->getModule('twitchtv')->getServerUrl() . '/embed/';
         return $this->render('twitchtvframe', ['twitchtvUrl' => $url]);
     }
 }
