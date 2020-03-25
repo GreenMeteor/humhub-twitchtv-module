@@ -22,7 +22,7 @@ class Module extends \humhub\components\Module
     {
         $url = $this->settings->get('serverUrl');
         if (empty($url)) {
-            return 'https://twitch.tv';
+            return 'https://www.twitch.tv';
         }
         return $url;
     }
